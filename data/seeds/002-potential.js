@@ -54,6 +54,14 @@ exports.seed = function (knex) {
           rating: "8",
           topic: "Politics",
         },
+        {
+          id: 7,
+          title: "History of The World War",
+          author: "Francis A. March",
+          date: "2022",
+          rating: "8",
+          topic: "History",
+        },
       ]);
     });
 };
