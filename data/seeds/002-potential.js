@@ -46,14 +46,7 @@ exports.seed = function (knex) {
           rating: "7",
           topic: "Biology and Health",
         },
-        {
-          id: 6,
-          title: "Decadent Society",
-          author: "Ross Douthat",
-          date: "2022",
-          rating: "8",
-          topic: "Politics",
-        },
+
         {
           id: 7,
           title: "History of The World War",

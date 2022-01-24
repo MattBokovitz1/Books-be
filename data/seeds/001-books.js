@@ -184,6 +184,14 @@ exports.seed = function (knex) {
           rating: "10",
           topic: "Psychology",
         },
+        {
+          id: 23,
+          title: "The Decadent Society",
+          author: "Ross Douthat",
+          date: "2022",
+          rating: "9",
+          topic: "Politics",
+        },
       ]);
     });
 };
