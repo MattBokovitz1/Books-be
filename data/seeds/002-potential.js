@@ -63,6 +63,14 @@ exports.seed = function (knex) {
           rating: "9",
           topic: "Religion",
         },
+        {
+          id: 9,
+          title: "The Everlasting Man",
+          author: "GK Chesterton",
+          date: "2022",
+          rating: "9",
+          topic: "History",
+        },
       ]);
     });
 };
