@@ -55,6 +55,14 @@ exports.seed = function (knex) {
           rating: "8",
           topic: "History",
         },
+        {
+          id: 8,
+          title: "Confessions",
+          author: "St. Augustine",
+          date: "2022",
+          rating: "9",
+          topic: "Religion",
+        },
       ]);
     });
 };

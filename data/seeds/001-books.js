@@ -192,6 +192,14 @@ exports.seed = function (knex) {
           rating: "9",
           topic: "Politics",
         },
+        {
+          id: 24,
+          title: "A Freedom Within",
+          author: "Stefan Cardinal Wyszynski",
+          date: "2022",
+          rating: "10",
+          topic: "Religion",
+        },
       ]);
     });
 };
