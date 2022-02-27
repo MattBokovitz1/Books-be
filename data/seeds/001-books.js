@@ -128,14 +128,7 @@ exports.seed = function (knex) {
           rating: "7",
           topic: "Psychology",
         },
-        {
-          id: 16,
-          title: "A Freedom Within",
-          author: "Stefan Cardinal Wyszyński",
-          date: "2022",
-          rating: "9",
-          topic: "Religion",
-        },
+
         {
           id: 17,
           title: "The Odyssey",
@@ -199,6 +192,14 @@ exports.seed = function (knex) {
           date: "2022",
           rating: "10",
           topic: "Religion",
+        },
+        {
+          id: 25,
+          title: "A History of English Speaking Peoples Vol 3",
+          author: "Winston Churchill",
+          date: "2022",
+          rating: "10",
+          topic: "History",
         },
       ]);
     });
