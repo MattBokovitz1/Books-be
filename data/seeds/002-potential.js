@@ -32,7 +32,7 @@ exports.seed = function (knex) {
         },
         {
           id: 4,
-          title: "A History of the English-Speaking Peoples Vol 3&4",
+          title: "A History of the English-Speaking Peoples Vol 4",
           author: "Winston Churchill",
           date: "2022",
           rating: "10",
@@ -70,6 +70,38 @@ exports.seed = function (knex) {
           date: "2022",
           rating: "9",
           topic: "History",
+        },
+        {
+          id: 10,
+          title: "Mere Christianity",
+          author: "CS Lewis",
+          date: "2022",
+          rating: "9",
+          topic: "Religion",
+        },
+        {
+          id: 11,
+          title: "The Four Loves",
+          author: "CS Lewis",
+          date: "2022",
+          rating: "9",
+          topic: "Religion",
+        },
+        {
+          id: 12,
+          title: "Surprised By Joy",
+          author: "CS Lewis",
+          date: "2022",
+          rating: "9",
+          topic: "Religion",
+        },
+        {
+          id: 13,
+          title: "The Abolition of Man",
+          author: "CS Lewis",
+          date: "2022",
+          rating: "9",
+          topic: "Religion",
         },
       ]);
     });
